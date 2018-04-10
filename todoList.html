@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="todoList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
+          <div class="wrap">
+            <h1>The Most Aesthetic<br>Todo List Ever</h1>
+            <form>
+              <div class="form">
+                <input type="text" name="task" placeholder=" Add a task">
+                <button class="btn btn-default btn-right" type="submit" name="task">Add</button>
+              </div>
+            </form>
+            <ul>
+              <li class="list-group-item" ><i class="fa fa-trash"></i> Go to Costco</li>
+              <li class="list-group-item" ><i class="fa fa-trash"></i> Get gas</li>
+              <li class="list-group-item" ><i class="fa fa-trash"></i> Take out trash</li>
+            </ul>
+            <div class="form">
+              <form method="POST" action="form.php">
+                <input type="email" name="email" placeholder=" Email" required>
+                <button class="btn btn-success" type="submit" name="submit">Get your list!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="todoList.js"></script>
+  </body>
+</html>
